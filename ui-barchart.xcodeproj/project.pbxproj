@@ -13,7 +13,7 @@
 		F0E0CCB024FC802100E6EC50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0E0CCAF24FC802100E6EC50 /* Assets.xcassets */; };
 		F0E0CCB324FC802100E6EC50 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0E0CCB224FC802100E6EC50 /* Preview Assets.xcassets */; };
 		F0E0CCB624FC802100E6EC50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0E0CCB424FC802100E6EC50 /* LaunchScreen.storyboard */; };
-		F0E0CCBF24FC9F2900E6EC50 /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = F0E0CCBE24FC9F2900E6EC50 /* screenshot.png */; };
+		F0E0CCC324FCA29800E6EC50 /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = F0E0CCC224FCA29800E6EC50 /* screenshot.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		F0E0CCB224FC802100E6EC50 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F0E0CCB524FC802100E6EC50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F0E0CCB724FC802100E6EC50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F0E0CCBE24FC9F2900E6EC50 /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
+		F0E0CCC224FCA29800E6EC50 /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +81,7 @@
 		F0E0CCBD24FC9F0600E6EC50 /* Docs */ = {
 			isa = PBXGroup;
 			children = (
-				F0E0CCBE24FC9F2900E6EC50 /* screenshot.png */,
+				F0E0CCC224FCA29800E6EC50 /* screenshot.png */,
 			);
 			path = Docs;
 			sourceTree = "<group>";
@@ -147,7 +147,7 @@
 				F0E0CCB624FC802100E6EC50 /* LaunchScreen.storyboard in Resources */,
 				F0E0CCB324FC802100E6EC50 /* Preview Assets.xcassets in Resources */,
 				F0E0CCB024FC802100E6EC50 /* Assets.xcassets in Resources */,
-				F0E0CCBF24FC9F2900E6EC50 /* screenshot.png in Resources */,
+				F0E0CCC324FCA29800E6EC50 /* screenshot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

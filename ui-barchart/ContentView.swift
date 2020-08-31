@@ -13,8 +13,8 @@ struct ContentView: View {
     @State var pickerSelectedItem = 1
     
     @State var data: [[CGFloat]] = [
-        [1.0, 0.9, 0.5, 1.0, 0.9, 0.5, 0.8],
-        [0.4, 0.9, 0.5, 1.0, 0.9, 0.5, 0.8],
+        [1.0, 0.9, 0.5, 0.15, 0.9, 0.5, 0.8],
+        [0.4, 0.9, 0.5, 0.14, 0.24, 0.5, 0.8],
         [0.7, 0.9, 0.5, 1.0, 0.9, 0.5, 0.8]
     ]
     
@@ -56,6 +56,19 @@ struct BarView: View {
     @State var value: CGFloat
     let label: String
     
+    var barColor: Color {
+        get {
+            switch value {
+            case ...0.25:
+                return Color(.systemRed)
+            case 0.25...0.5:
+                return Color(.systemOrange)
+            default:
+                return Color(.systemGreen)
+            }
+        }
+    }
+    
     var body: some View {
         VStack {
             ZStack(alignment: .bottom) {
@@ -65,12 +78,13 @@ struct BarView: View {
                 
                 Capsule()
                     .frame(width: 30, height: 200 * value, alignment: .center)
-                    .foregroundColor(Color(.tertiarySystemFill))
+                    .foregroundColor(barColor)
             }
             
             Text(label).font(.caption)
         }
     }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
