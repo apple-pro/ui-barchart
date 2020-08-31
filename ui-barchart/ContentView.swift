@@ -13,9 +13,9 @@ struct ContentView: View {
     @State var pickerSelectedItem = 1
     
     @State var data: [[CGFloat]] = [
-        [1.0, 0.9, 0.5, 0.15, 0.9, 0.5, 0.8],
-        [0.4, 0.9, 0.5, 0.14, 0.24, 0.5, 0.8],
-        [0.7, 0.9, 0.5, 1.0, 0.9, 0.5, 0.8]
+        [1.0, 0.9, 0.5, 0.15, 0.9, 0.5, 0.85],
+        [0.5, 0.3, 0.5, 0.14, 0.24, 0.5, 0.9],
+        [0.9, 0.25, 0.5, 1.0, 0.9, 0.5, 0.95]
     ]
     
     var body: some View {
@@ -53,7 +53,7 @@ struct ContentView: View {
 
 struct BarView: View {
     
-    @State var value: CGFloat
+    var value: CGFloat
     let label: String
     
     var barColor: Color {
